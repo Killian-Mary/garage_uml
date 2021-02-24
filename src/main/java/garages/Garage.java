@@ -1,6 +1,6 @@
 package garages;
 
-public class Garage {
+public class Garage implements Comparable{
 
 	private String name;
 
@@ -23,6 +23,12 @@ public class Garage {
 	@Override
 	public String toString() {
 		return "Garage " + name;
+	}
+
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

@@ -14,6 +14,11 @@ public class Stationnement {
 	public Stationnement(Voiture v, Garage g) {
 		myCar = v;
 		myGarage = g;
+		fin = null;
+	}
+
+	public void setFin(Date fin) {
+		this.fin = fin;
 	}
 
 	public Voiture getCar() {
